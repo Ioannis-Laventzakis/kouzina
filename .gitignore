@@ -1,0 +1,43 @@
+# Help or docs (not needed in repo)
+HELP.md
+
+# Maven target directory
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Build outputs (Gradle-style or IDE-specific)
+build/
+
+# Eclipse / Spring Tool Suite (STS)
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Spring Boot config (DO NOT TRACK real credentials)
+src/main/resources/application.properties
